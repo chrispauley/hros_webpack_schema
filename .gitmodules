@@ -1,0 +1,21 @@
+[submodule "schema/Common"]
+	path = schema/Common
+	url = https://github.com/HROpen/Common.git
+[submodule "schema/Assessments"]
+	path = schema/Assessments
+	url = https://github.com/HROpen/Assessments.git
+[submodule "schema/Recruiting"]
+	path = schema/Recruiting
+	url = https://github.com/HROpen/Recruiting.git
+[submodule "schema/Timecard"]
+	path = schema/Timecard
+	url = https://github.com/HROpen/Timecard.git
+[submodule "schema/Benefits"]
+	path = schema/Benefits
+	url = https://github.com/HROpen/Benefits.git
+[submodule "schema/Screening"]
+	path = schema/Screening
+	url = https://github.com/HROpen/Screening.git
+[submodule "schema/Wellness"]
+	path = schema/Wellness
+	url = https://github.com/HROpen/Wellness.git
