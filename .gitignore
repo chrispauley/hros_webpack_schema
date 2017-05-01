@@ -1,4 +1,4 @@
 node_modules
+// Comment out the directory 'schema...'
 schema
 build
-yarn.lock
