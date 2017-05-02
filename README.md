@@ -9,7 +9,7 @@ The goal of this project is to enable automated testing of the HROPen Standard s
 
 ### TLDR;
 After installing the libraries and the schemas, run 'webpack'. It will reference the json schemas for each work group and bundle the schemas into individual files. Errors are displayed in the console.
-![](console_output.png)
+![](console_output.png = 250x)
 
 ## Prerequisites
 ```
