@@ -16,9 +16,10 @@ After installing the libraries and the schemas, run 'webpack'. It will reference
 ## Prerequisites
 ```
     // This will probably work with Node 5 or 6.
-    node --version && npm -v && git --version
+    node --version && npm -v && bower --version && git --version
     v7.2.1
     3.10.10
+    1.8.0
     git version 2.11.0 (Apple Git-81)
 
     Access to the private [HROPEN Repos](https://github.com/HROpen)
@@ -47,17 +48,10 @@ npm install
 
 ## Pull the schemas into the project as submodules into a folder 'schema/'
 You may/will need to edit the .gitignore file to remove the 'schema' folder from being ignored by git.
+This will install the schemas from the _private_ repos.
 
 ```
-git submodule add https://github.com/HROpen/Common.git schema/Common
-git submodule add https://github.com/HROpen/Assessments.git schema/Assessments
-git submodule add https://github.com/HROpen/Benefits.git schema/Benefits
-git submodule add https://github.com/HROpen/Compensation.git schema/Compensation
-git submodule add https://github.com/HROpen/Recruiting.git schema/Recruiting
-git submodule add https://github.com/HROpen/Screening.git schema/Screening
-git submodule add https://github.com/HROpen/Interviewing.git schema/Interviewing
-git submodule add https://github.com/HROpen/Wellness.git schema/Wellness
-git submodule add https://github.com/HROpen/Timecard.git schema/Timecard
+bower install
 
 ```
 
