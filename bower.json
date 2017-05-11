@@ -1,0 +1,33 @@
+{
+  "name": "hros-common",
+  "description": "Core schema repository shared between all HR Open specifications",
+  "private": true,
+  "main": "readme.md",
+  "ignore": [
+    ".gitignore",
+    ".bowerrc",
+    "bower.json",
+    "documentation",
+    "ref"
+  ],
+  "authors": [
+    {
+      "name": "HROpen Standards Consortium",
+      "email": "info@hropenstandards.org",
+      "homepage": "http://hropenstandards.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HROpen/Common.git"
+  },
+  "devDependencies": {
+    "assessments": "https://github.com/HROpen/Assessments.git#development",
+    "benefits": "https://github.com/HROpen/Assessments.git#development",
+    "common": "https://github.com/HROpen/Common.git#development",
+    "recruiting": "https://github.com/HROpen/Recruiting.git#development",
+    "screening": "https://github.com/HROpen/Screening.git#development",
+    "timecard": "https://github.com/HROpen/Timecard.git#development",
+    "wellness": "https://github.com/HROpen/Wellness.git#development"
+  }
+}

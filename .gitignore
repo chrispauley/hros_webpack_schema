@@ -1,4 +1,6 @@
+*.DS_Store
 node_modules
-// Comment out the directory 'schema...'
+
+#This is from HROpen - requires access to private repos:
 schema
 build
